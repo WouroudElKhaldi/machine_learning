@@ -53,19 +53,19 @@ The dataset includes real-world aid requests collected from various humanitarian
 2. **Open the Terminal in VS Code**  
    Ensure the terminal is set to use the Command Prompt.
 
-3. **Install the Required Libraries**  
-   `pip install -r requirements.txt`
-
-4. **Set Up a Virtual Environment**  
+3. **Set Up a Virtual Environment**  
    `python3 -m venv venv`  
    `source venv/bin/activate`
 
-5. **Train the Model**  
+4. **Install the Required Libraries**  
+   `pip install -r requirements.txt`
+   
+6. **Train the Model**  
    Run the following command in the terminal:  
    `python main.py`  
    You should see the terminal return the processed data, which will be saved inside the `classified_data.csv` file.
 
-6. **Test the Model**  
+7. **Test the Model**  
    Open the `test.py` file. You will find a JSON variable called `new_record` that contains the data for prediction. Feel free to adjust the data as needed.  
    To run the test, execute the following command in the terminal:  
    `python test.py`  
