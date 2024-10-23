@@ -54,8 +54,8 @@ The dataset includes real-world aid requests collected from various humanitarian
    Ensure the terminal is set to use the Command Prompt.
 
 3. **Set Up a Virtual Environment**  
-   `python3 -m venv venv`  
-   `source venv/bin/activate`
+   `python -m venv venv`  
+   `venv\Scripts\activate`
 
 4. **Install the Required Libraries**  
    `pip install -r requirements.txt`
